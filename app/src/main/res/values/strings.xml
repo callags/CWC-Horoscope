@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CWC Horoscope</string>
+    <string name="main_intro">Enter your birth month and day to find your Chris Chan Horoscope</string>
+</resources>
