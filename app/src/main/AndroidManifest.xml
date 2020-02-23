@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".liquid"></activity>
+        <activity android:name=".slaweel" />
+        <activity android:name=".wild" />
+        <activity android:name=".count" />
+        <activity android:name=".wes" />
+        <activity android:name=".naitsirhc" />
+        <activity android:name=".jerkop" />
+        <activity android:name=".asperchu" />
+        <activity android:name=".magichan" />
+        <activity android:name=".blachu" />
+        <activity android:name=".rosechu" />
+        <activity android:name=".sonichu" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

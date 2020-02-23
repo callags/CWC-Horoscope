@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".jerkop">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/count_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/graduon_intro"
+                android:textColor="@color/colorString"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/count_graduon"
+                android:layout_width="204dp"
+                android:layout_height="211dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/count_graduon" />
+
+            <TextView
+                android:id="@+id/count_strength"
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/graduon_strength"
+                android:textColor="@color/colorString"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/count_weakness"
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/graduon_weakness"
+                android:textColor="@color/colorString"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/count_body"
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/graduon_body"
+                android:textColor="@color/colorString"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/homeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="HOME"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

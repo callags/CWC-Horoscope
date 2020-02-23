@@ -1,9 +1,11 @@
 package com.something.cwchoroscope
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import kotlinx.android.synthetic.main.activity_count.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.reflect.Array.get
 
@@ -132,98 +134,148 @@ class MainActivity : AppCompatActivity() {
         if (monthString == January) {
             if (dayString.toInt() <= 20) {
                 //Load Wild Sonichu page
-            } else if (dayString.toInt() > 20) {
-                //Load Bubbles Rosechu page
+                val wildPage = Intent(this, wild::class.java)
+                startActivity(wildPage)
+            }
+            else if (dayString.toInt() > 20) {
+                //Load Slaweel page
+                val slaweelPage = Intent(this, slaweel::class.java)
+                startActivity(slaweelPage)
             }
         }
         else if (monthString == February) {
             if (dayString.toInt() <= 19) {
-                //Load Bubbles Rosechu page
+                //Load Slaweel page
+                val slaweelPage = Intent(this, slaweel::class.java)
+                startActivity(slaweelPage)
             }
             else if (dayString.toInt() > 19){
-                //Load Angelica Rosechu page
+                //Load Liquid Chris page
+                val liquidPage = Intent(this, liquid::class.java)
+                startActivity(liquidPage)
             }
         }
         else if (monthString == March){
             if (dayString.toInt() <= 21){
-                //Load Angelica Rosechu page
+                //Load Liquid Chris page
+                val liquidPage = Intent(this, liquid::class.java)
+                startActivity(liquidPage)
             }
             else if (dayString.toInt() > 21){
                 //Load Sonichu page
+                val sonichuPage = Intent(this, sonichu::class.java)
+                startActivity(sonichuPage)
             }
         }
         else if (monthString == April){
             if (dayString.toInt() <= 20){
                 //Load Sonichu page
+                val sonichuPage = Intent(this, sonichu::class.java)
+                startActivity(sonichuPage)
             }
             else if (dayString.toInt() > 20){
                 //Load Rosechu page
+                val rosechuPage = Intent(this, rosechu::class.java)
+                startActivity(rosechuPage)
             }
         }
         else if (monthString == May){
             if (dayString.toInt() <= 21){
                 //Load Rosechu page
+                val rosechuPage = Intent(this, rosechu::class.java)
+                startActivity(rosechuPage)
             }
             else if (dayString.toInt() > 21){
                 //Load Blachu page
+                val blachuPage = Intent(this, blachu::class.java)
+                startActivity(blachuPage)
             }
         }
         else if (monthString == June){
             if (dayString.toInt() <= 21){
                 //Load Blachu page
+                val blachuPage = Intent(this, blachu::class.java)
+                startActivity(blachuPage)
             }
             else if (dayString.toInt() > 21){
-                //Load Magichu page
+                //Load Magichan page
+                val magichanPage = Intent(this, magichan::class.java)
+                startActivity(magichanPage)
             }
         }
         else if (monthString == July){
             if (dayString.toInt() <= 23){
                 //Load Magichu page
+                val magichanPage = Intent(this, magichan::class.java)
+                startActivity(magichanPage)
             }
             else if (dayString.toInt() > 23){
                 //Load Asperchu page
+                val asperchuPage = Intent(this, asperchu::class.java)
+                startActivity(asperchuPage)
             }
         }
         else if (monthString == August){
             if (dayString.toInt() <= 23){
                 //Load Asperchu page
+                val asperchuPage = Intent(this, asperchu::class.java)
+                startActivity(asperchuPage)
             }
             else if (dayString.toInt() > 23){
-                //Load Metonic page
+                //Load Jerkop page
+                val jerkopPage = Intent(this, jerkop::class.java)
+                startActivity(jerkopPage)
             }
         }
         else if (monthString == September){
             if (dayString.toInt() <= 23){
-                //Load Metonic page
+                //Load Jerkop page
+                val jerkopPage = Intent(this, jerkop::class.java)
+                startActivity(jerkopPage)
             }
             else if (dayString.toInt() > 23){
-                //Load Vamprosa page
+                //Load Naitsirhc page
+                val naitsirhcPage = Intent(this, naitsirhc::class.java)
+                startActivity(naitsirhcPage)
             }
         }
         else if (monthString == October){
             if (dayString.toInt() <= 23){
-                //Load Vamprosa page
+                //Load Naitsirhc page
+                val naitsirhcPage = Intent(this, naitsirhc::class.java)
+                startActivity(naitsirhcPage)
             }
             else if (dayString.toInt() > 23){
-                //Load Saramah Rosechu page
+                //Load Wes Iseli page
+                val wesPage = Intent(this, wes::class.java)
+                startActivity(wesPage)
             }
         }
         else if (monthString == November){
             if (dayString.toInt() <= 22){
-                //Load Saramah Rosechu page
+                //Load Wes Iseli page
+                val wesPage = Intent(this, wes::class.java)
+                startActivity(wesPage)
             }
             else if (dayString.toInt() > 22){
                 //Load Count Graduon page
+                val graduonPage = Intent(this, count::class.java)
+                startActivity(graduonPage)
             }
         }
         else if (monthString == December){
             if (dayString.toInt() <= 22){
                 //Load Count Graduon page
+                val graduonPage = Intent(this, count::class.java)
+                startActivity(graduonPage)
             }
             else if (dayString.toInt() > 22){
                 //Load Wild Sonichu page
+                val wildPage = Intent(this, wild::class.java)
+                startActivity(wildPage)
             }
         }
+        //Disable button so user will have to select a different month or day
         submit_button.isEnabled = false
     }
 }
