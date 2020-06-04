@@ -21,7 +21,7 @@
 
             <TextView
                 android:id="@+id/magichan_intro"
-                android:layout_width="286dp"
+                android:layout_width="338dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"

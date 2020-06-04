@@ -46,7 +46,7 @@
 
     <androidx.appcompat.widget.AppCompatSpinner
         android:id="@+id/spinner2"
-        android:layout_width="60dp"
+        android:layout_width="70dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
         android:background="@color/colorSelectBox"

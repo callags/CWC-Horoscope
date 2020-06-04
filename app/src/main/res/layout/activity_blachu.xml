@@ -61,7 +61,7 @@
             <TextView
                 android:id="@+id/blachu_body"
                 android:layout_width="393dp"
-                android:layout_height="260dp"
+                android:layout_height="311dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:text="@string/blachu_body"
@@ -73,7 +73,7 @@
                 android:layout_width="115dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="22dp"
                 android:text="HOME"
                 android:textSize="18sp" />
         </LinearLayout>

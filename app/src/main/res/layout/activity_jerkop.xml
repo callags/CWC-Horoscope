@@ -60,7 +60,7 @@
             <TextView
                 android:id="@+id/naitsirhc_body"
                 android:layout_width="383dp"
-                android:layout_height="159dp"
+                android:layout_height="189dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:text="@string/jerkop_body"

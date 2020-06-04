@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CWC Horoscope</string>
-    <string name="main_intro">Enter your birth month and day to find your Chris Chan Horoscope</string>
+    <string name="main_intro">Enter your birth date to discover your CWC Horoscope!</string>
     <string name="sonichu_intro">You are a Sonichu!</string>
     <string name="sonichu_strength">Strengths: Always ready to seek adventure, willing to do what\’s right, always zapping to the extreme</string>
     <string name="sonichu_weakness">Weaknesses: On a constant search for Chaos emeralds, Abandonment issues</string>
